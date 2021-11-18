@@ -1,0 +1,461 @@
+body {
+    background-color: #94ac93;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    width: auto;
+}
+
+
+/*#94ac93*/
+
+.Eis {
+    position: relative;
+    left: -150px;
+}
+
+.Kara {
+    position: absolute;
+    display: inline-flex;
+    left: 75px;
+    top: 385px;
+    width: 250px;
+}
+
+.mio {
+    position: absolute;
+    display: inline-flex;
+    width: 250px;
+    top: 350px;
+    right: 0;
+    transform: translateX(-135%);
+}
+
+#LogoBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 10%;
+    z-index: 1;
+}
+
+#LogoTextBox {
+    position: absolute;
+    left: -0px;
+    top: -107px;
+    text-align: center;
+    z-index: 1;
+    margin-right: 25px;
+}
+
+.LogoSize {
+    width: 60%;
+}
+
+#BigLogo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#BubbleText {
+    position: absolute;
+    animation: 2s linear 1s blowUp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat url("../Euroweb Projekt/SvG/speak-bubble.svg");
+    background-position: 30% 50%;
+    background-size: cover;
+    flex-direction: column;
+    color: rgb(124, 109, 25);
+    left: 50%;
+    height: 50%;
+    width: 50%;
+    top: 400px;
+}
+
+@keyframes blowUp {
+    0% {
+        opacity: 0;
+        transform: scale(0.1) rotate(-60deg);
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+
+.TextFormatBubble {
+    color: rgb(75, 66, 15);
+    text-align: center;
+    font-family: "Century Gothic";
+    padding-left: 50px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.TextFormatBubbleSecond {
+    text-align: center;
+    padding-left: 50px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.backgroundPinsel {
+    background: no-repeat url("../Euroweb Projekt/SvG/Pinsel-Strich-weiß.svg");
+    background-size: cover;
+    background-position: 48% 50%;
+    width: 102%;
+    height: 1000px;
+    margin-top: -250px;
+    z-index: 2;
+}
+
+.EisLogo {
+    position: relative;
+    right: 190px;
+    width: 170%;
+    top: 220px;
+}
+
+.EisText {
+    position: relative;
+    font-size: 18px;
+    color: #7a5c44;
+    top: 220px;
+    font-family: "Century Gothic";
+}
+
+.pinselImage {
+    position: absolute;
+    left: 145%;
+    display: inline-block;
+    width: 450%;
+    align-items: center;
+    transform: translateX(-50%) rotate(20deg);
+    margin-top: 250px;
+}
+
+.pinselLieferImage {
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    width: 450%;
+    align-items: center;
+    transform: translateX(-50%);
+}
+
+.FrauBild {
+    position: absolute;
+    z-index: -1;
+    width: 75%;
+    left: 44%;
+    top: 1249px;
+}
+
+.EismanuFakturText {
+    position: relative;
+    color: #ffffff;
+    margin-top: -92px;
+    font-size: 50px;
+}
+
+.BioMioText {
+    position: relative;
+    font-size: 15px;
+    color: #ffffff;
+    left: 7%;
+    margin-top: 9%;
+}
+
+.loeffel {
+    position: relative;
+    z-index: 999;
+    width: 50%;
+    top: 250px;
+    transform: rotate(-15deg);
+}
+
+.col-6.nuesse {
+    z-index: 999;
+    position: relative;
+    transform: translateY(-50px) rotate(-40deg);
+    width: 35%;
+    left: 70%;
+    top: 200px;
+}
+
+.textBio {
+    z-index: 999;
+    font-family: Hello Amargo;
+}
+
+.textBio.Vegan {
+    position: relative;
+    color: #674327;
+    top: 300px;
+    font-size: 20px;
+}
+
+.textBio.Quali {
+    position: relative;
+    color: #674327;
+    left: 5%;
+    top: 251px;
+    font-size: 20px;
+}
+
+.textBio.hand {
+    position: relative;
+    color: #674327;
+    right: 5%;
+    top: 284px;
+    font-size: 20px;
+}
+
+.textBio.liefertext {
+    position: relative;
+    top: 70px;
+    margin-top: 200px;
+    left: 10%;
+    color: #674327;
+}
+
+.lieferwagen {
+    position: relative;
+    width: 1280px;
+    top: 350px;
+}
+
+.TreueButton {
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #ebbb2d;
+    color: #674327;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 20px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+}
+
+.TreueButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.PinselKontakt {
+    position: absolute;
+    display: block;
+    width: 450%;
+    margin-top: -450px;
+    align-items: center;
+    transform: translateX(-45%) translateY(-8%) rotate(180deg) rotateY(180deg);
+}
+
+.Oeffnungszeiten {
+    position: relative;
+    top: 500px;
+}
+
+.textLeft {
+    position: absolute;
+    z-index: 999;
+    color: #674327;
+}
+
+.textRight {
+    position: absolute;
+    right: 200px;
+    z-index: 999;
+    color: #674327;
+}
+
+.link {
+    text-decoration: none;
+    transition-duration: 0.4s;
+    color: #674327;
+}
+
+.link:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header2 {
+    font-size: 40px;
+    font-family: Forte;
+}
+
+.header3 {
+    font-family: Forte;
+    font-size: 30px;
+    margin-bottom: -35px;
+}
+
+.EismanuFakturLeftText {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.LieferText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.bigger {
+    font-size: 18px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        width: 105%;
+    }
+    #LogoTextBox {
+        left: -400px;
+        margin-right: -500px;
+        top: -80px;
+    }
+    .Eis {
+        position: relative;
+        left: -43px;
+        top: 90px;
+        width: 300%;
+    }
+    .Kara {
+        position: absolute;
+        display: inline-flex;
+        left: 219px;
+        top: 385px;
+        width: 116px;
+    }
+    .mio {
+        position: absolute;
+        display: inline-flex;
+        width: 98px;
+        top: 375px;
+        right: 156px;
+        transform: translateX(-135%);
+    }
+    #BubbleText {
+        height: 23%;
+        width: 72%;
+    }
+    .TextFormatBubble {
+        font-size: 16px;
+        padding-top: 0px;
+        padding-right: 55px;
+    }
+    .TextFormatBubbleSecond {
+        text-align: center;
+        padding-left: 0px;
+        font-size: 8px;
+    }
+    .EisText {
+        font-size: 11px;
+    }
+    .backgroundPinsel {
+        margin-top: -182px;
+        height: 877px;
+    }
+    .EisLogo {
+        right: 107px;
+        width: 209%;
+    }
+    .FrauBild {
+        width: 132%;
+        left: 18%;
+        top: 1092px;
+    }
+    .header3 {
+        font-size: 21px;
+    }
+    .EismanuFakturText {
+        margin-top: -182px;
+    }
+    .EismanuFakturLeftText {
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .BioMioText {
+        font-size: 10px;
+        left: -3%;
+        margin-top: -12%;
+    }
+    .pinselImage {
+        margin-top: -69px;
+        transform: translateX(-67%) rotate( 20deg);
+        width: 767%;
+    }
+    .loeffel {
+        height: 80px;
+        top: 73px;
+    }
+    .header2 {
+        font-size: 28px;
+        margin: 0;
+    }
+    .textBio.Vegan {
+        top: 66px;
+        font-size: 9px;
+    }
+    .textBio.Quali {
+        top: 55px;
+        font-size: 9px;
+    }
+    .textBio.hand {
+        right: 7%;
+        top: 59px;
+        font-size: 9px;
+    }
+    .col-6.nuesse {
+        top: 58px;
+    }
+    .pinselLieferImage {
+        left: -8%;
+        width: 1350%;
+        transform: translateX(-53%);
+        margin-top: -17px;
+    }
+    .textBio.liefertext {
+        top: 70px;
+        margin-top: 72px;
+        left: 4%;
+    }
+    .LieferText {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 1px;
+        font-size: 9px;
+        margin-top: 25px;
+    }
+    .bigger {
+        font-size: 11px;
+    }
+    .lieferwagen {
+        position: relative;
+        width: 700px;
+        top: 171px;
+        left: -62px;
+    }
+    .PinselKontakt {
+        width: 755%;
+        margin-top: -339px;
+    }
+    .textLeft {
+        top: -109px;
+        font-size: 9px;
+        left: 17px;
+    }
+    .textRight {
+        top: -109px;
+        right: 25px;
+        font-size: 9px;
+    }
+}
